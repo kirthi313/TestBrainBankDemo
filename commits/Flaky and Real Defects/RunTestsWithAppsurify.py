@@ -18,6 +18,7 @@ except ImportError:
    print('Error, yaml is required, please run pip install pyyaml')
 
 tests=""
+testsrun=""
 
 def find(name):
     currentdir = os.getcwd() # using current dir, could change this to work with full computer search
@@ -308,7 +309,6 @@ def execute_tests(testlist, testset):
     echo("run command = " + command)
     runcommand(command)
     echo(os.getcwd())
-
     push_results()
 
 def get_tests(testpriority):
@@ -416,10 +416,13 @@ def get_and_run_tests(type):
     if tests != "":
         execute_tests(tests, type)
         failfast_tests
+
+    return tests
     
-    if type != 5 and tests == "":
-            print("executing all tests")
-            execute_tests("", 0)
+    #doesn't work as it will run on high, medium and low then if there are none for any it will run all
+    #if type != 5 and tests == "":
+    #        print("executing all tests")
+    #        execute_tests("", 0)
 
 def failfast_tests(tests):
     if failfast == "true":
@@ -1045,11 +1048,13 @@ echo("Getting tests to run")
 
 valuetests=""
 finalTestNames=""
-
+testsrun = ""
 if teststorun == "all":
     execute_tests("", 0)
+    testsrun="all"
 
 if teststorun == "none":
+    testsrun="none"
     push_results()
 
 testtypes=[]
@@ -1065,7 +1070,12 @@ if "unassigned" in teststorun:
 
 ####start loop
 for i in testtypes:
-    get_and_run_tests(i)
+    print("testsrun1 = " + testsrun)
+    testsrun = get_and_run_tests(i) + testsrun
+
+if testsrun == "":
+        print("executing all tests")
+        execute_tests("", 0)
 
 if failfast == "false" and rerun == "true":
     rerun_tests()

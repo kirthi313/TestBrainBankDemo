@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="DemoBankingApp.ACHPaymentTests" time="9.854" tests="8" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="DemoBankingApp.OnlineAccountTests" time="3.896" tests="19" errors="0" skipped="0" failures="0">
   <properties>
     <property name="sun.desktop" value="windows"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -18,7 +18,8 @@
     <property name="user.country" value="NZ"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_131\jre\bin"/>
-    <property name="sun.java.command" value="C:\Users\james\AppData\Local\Temp\surefire4225423435747747006\surefirebooter713928356729686714.jar C:\Users\james\AppData\Local\Temp\surefire4225423435747747006 2020-02-21T10-49-30_128-jvmRun1 surefire7870691909497923172tmp surefire_0256176004632328069tmp"/>
+    <property name="sun.java.command" value="C:\Users\james\AppData\Local\Temp\surefire6015191308112338562\surefirebooter4268138627114542448.jar C:\Users\james\AppData\Local\Temp\surefire6015191308112338562 2020-02-21T12-10-46_848-jvmRun1 surefire4450528694193860525tmp surefire_05660284966470837601tmp"/>
+    <property name="test" value="DemoBankingApp.OnlineAccountTests#OnlineAccountTest1,DemoBankingApp.OnlineAccountTests#OnlineAccountTest10,DemoBankingApp.OnlineAccountTests#OnlineAccountTest11,DemoBankingApp.OnlineAccountTests#OnlineAccountTest12,DemoBankingApp.OnlineAccountTests#OnlineAccountTest13,DemoBankingApp.OnlineAccountTests#OnlineAccountTest14,DemoBankingApp.OnlineAccountTests#OnlineAccountTest15,DemoBankingApp.OnlineAccountTests#OnlineAccountTest16,DemoBankingApp.OnlineAccountTests#OnlineAccountTest17,DemoBankingApp.OnlineAccountTests#OnlineAccountTest18,DemoBankingApp.OnlineAccountTests#OnlineAccountTest19,DemoBankingApp.OnlineAccountTests#OnlineAccountTest20,DemoBankingApp.OnlineAccountTests#OnlineAccountTest21,DemoBankingApp.OnlineAccountTests#OnlineAccountTest22,DemoBankingApp.OnlineAccountTests#OnlineAccountTest4,DemoBankingApp.OnlineAccountTests#OnlineAccountTest6,DemoBankingApp.OnlineAccountTests#OnlineAccountTest7,DemoBankingApp.OnlineAccountTests#OnlineAccountTest8,DemoBankingApp.OnlineAccountTests#OnlineAccountTest9"/>
     <property name="surefire.test.class.path" value="C:\Github\TestBrainBankDemo\target\test-classes;C:\Github\TestBrainBankDemo\target\classes;C:\Users\james\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.4.2\junit-jupiter-api-5.4.2.jar;C:\Users\james\.m2\repository\org\apiguardian\apiguardian-api\1.0.0\apiguardian-api-1.0.0.jar;C:\Users\james\.m2\repository\org\opentest4j\opentest4j\1.1.1\opentest4j-1.1.1.jar;C:\Users\james\.m2\repository\org\junit\platform\junit-platform-commons\1.4.2\junit-platform-commons-1.4.2.jar;C:\Users\james\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.4.2\junit-jupiter-params-5.4.2.jar;C:\Users\james\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\Users\james\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\james\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.4.2\junit-jupiter-engine-5.4.2.jar;C:\Users\james\.m2\repository\org\junit\platform\junit-platform-engine\1.4.2\junit-platform-engine-1.4.2.jar;C:\Users\james\.m2\repository\org\junit\vintage\junit-vintage-engine\5.4.2\junit-vintage-engine-5.4.2.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="C:\Users\james"/>
@@ -31,7 +32,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="C:\Users\james\AppData\Local\Temp\surefire4225423435747747006\surefirebooter713928356729686714.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\james\AppData\Local\Temp\surefire6015191308112338562\surefirebooter4268138627114542448.jar"/>
     <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_131\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_131\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_131\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_131\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_131\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_131\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_131\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_131\jre\classes"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
@@ -60,12 +61,23 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="52.0"/>
   </properties>
-  <testcase name="ACHPaymentTest1" classname="DemoBankingApp.ACHPaymentTests" time="1.085"/>
-  <testcase name="ACHPaymentTest2" classname="DemoBankingApp.ACHPaymentTests" time="1.252"/>
-  <testcase name="ACHPaymentTest3" classname="DemoBankingApp.ACHPaymentTests" time="1.251"/>
-  <testcase name="ACHPaymentTest4" classname="DemoBankingApp.ACHPaymentTests" time="1.251"/>
-  <testcase name="ACHPaymentTest5" classname="DemoBankingApp.ACHPaymentTests" time="1.252"/>
-  <testcase name="ACHPaymentTest6" classname="DemoBankingApp.ACHPaymentTests" time="1.252"/>
-  <testcase name="ACHPaymentTest7" classname="DemoBankingApp.ACHPaymentTests" time="1.253"/>
-  <testcase name="ACHPaymentTest8" classname="DemoBankingApp.ACHPaymentTests" time="1.25"/>
+  <testcase name="OnlineAccountTest1" classname="DemoBankingApp.OnlineAccountTests" time="0.23"/>
+  <testcase name="OnlineAccountTest4" classname="DemoBankingApp.OnlineAccountTests" time="0.207"/>
+  <testcase name="OnlineAccountTest6" classname="DemoBankingApp.OnlineAccountTests" time="0.204"/>
+  <testcase name="OnlineAccountTest7" classname="DemoBankingApp.OnlineAccountTests" time="0.204"/>
+  <testcase name="OnlineAccountTest8" classname="DemoBankingApp.OnlineAccountTests" time="0.201"/>
+  <testcase name="OnlineAccountTest9" classname="DemoBankingApp.OnlineAccountTests" time="0.2"/>
+  <testcase name="OnlineAccountTest10" classname="DemoBankingApp.OnlineAccountTests" time="0.2"/>
+  <testcase name="OnlineAccountTest11" classname="DemoBankingApp.OnlineAccountTests" time="0.202"/>
+  <testcase name="OnlineAccountTest12" classname="DemoBankingApp.OnlineAccountTests" time="0.202"/>
+  <testcase name="OnlineAccountTest13" classname="DemoBankingApp.OnlineAccountTests" time="0.202"/>
+  <testcase name="OnlineAccountTest14" classname="DemoBankingApp.OnlineAccountTests" time="0.203"/>
+  <testcase name="OnlineAccountTest15" classname="DemoBankingApp.OnlineAccountTests" time="0.201"/>
+  <testcase name="OnlineAccountTest16" classname="DemoBankingApp.OnlineAccountTests" time="0.202"/>
+  <testcase name="OnlineAccountTest17" classname="DemoBankingApp.OnlineAccountTests" time="0.2"/>
+  <testcase name="OnlineAccountTest18" classname="DemoBankingApp.OnlineAccountTests" time="0.204"/>
+  <testcase name="OnlineAccountTest19" classname="DemoBankingApp.OnlineAccountTests" time="0.201"/>
+  <testcase name="OnlineAccountTest20" classname="DemoBankingApp.OnlineAccountTests" time="0.205"/>
+  <testcase name="OnlineAccountTest21" classname="DemoBankingApp.OnlineAccountTests" time="0.2"/>
+  <testcase name="OnlineAccountTest22" classname="DemoBankingApp.OnlineAccountTests" time="0.2"/>
 </testsuite>
