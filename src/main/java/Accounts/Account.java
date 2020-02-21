@@ -5,7 +5,7 @@ package Accounts;
  */
 public class Account {
 
-    int waitTime = 1000;
+    int waitTime = 1001;
 
     public boolean method1(){
         try {
