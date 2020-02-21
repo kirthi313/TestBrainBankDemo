@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: DemoBankingApp.OnlineAccountTests
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 0.69 s <<< FAILURE! - in DemoBankingApp.OnlineAccountTests
+OnlineAccountTest2  Time elapsed: 0.269 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Real Defect ==> expected: <true> but was: <false>
+	at DemoBankingApp.OnlineAccountTests.OnlineAccountTest2(OnlineAccountTests.java:37)
+
+OnlineAccountTest3  Time elapsed: 0.202 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Real Defect ==> expected: <true> but was: <false>
+	at DemoBankingApp.OnlineAccountTests.OnlineAccountTest3(OnlineAccountTests.java:44)
+
+OnlineAccountTest5  Time elapsed: 0.201 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Real Defect ==> expected: <true> but was: <false>
+	at DemoBankingApp.OnlineAccountTests.OnlineAccountTest5(OnlineAccountTests.java:59)
+

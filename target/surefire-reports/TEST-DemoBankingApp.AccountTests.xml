@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="DemoBankingApp.AccountTests" time="42.089" tests="42" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="DemoBankingApp.AccountTests" time="42.235" tests="42" errors="0" skipped="0" failures="0">
   <properties>
     <property name="sun.desktop" value="windows"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -18,7 +18,7 @@
     <property name="user.country" value="NZ"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_131\jre\bin"/>
-    <property name="sun.java.command" value="C:\Users\james\AppData\Local\Temp\surefire4402281317354973250\surefirebooter5613010760885413434.jar C:\Users\james\AppData\Local\Temp\surefire4402281317354973250 2020-02-20T15-57-34_974-jvmRun1 surefire3980397471946593077tmp surefire_08357707981699140213tmp"/>
+    <property name="sun.java.command" value="C:\Users\james\AppData\Local\Temp\surefire4225423435747747006\surefirebooter713928356729686714.jar C:\Users\james\AppData\Local\Temp\surefire4225423435747747006 2020-02-21T10-49-30_128-jvmRun1 surefire7870691909497923172tmp surefire_0256176004632328069tmp"/>
     <property name="surefire.test.class.path" value="C:\Github\TestBrainBankDemo\target\test-classes;C:\Github\TestBrainBankDemo\target\classes;C:\Users\james\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.4.2\junit-jupiter-api-5.4.2.jar;C:\Users\james\.m2\repository\org\apiguardian\apiguardian-api\1.0.0\apiguardian-api-1.0.0.jar;C:\Users\james\.m2\repository\org\opentest4j\opentest4j\1.1.1\opentest4j-1.1.1.jar;C:\Users\james\.m2\repository\org\junit\platform\junit-platform-commons\1.4.2\junit-platform-commons-1.4.2.jar;C:\Users\james\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.4.2\junit-jupiter-params-5.4.2.jar;C:\Users\james\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\Users\james\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\james\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.4.2\junit-jupiter-engine-5.4.2.jar;C:\Users\james\.m2\repository\org\junit\platform\junit-platform-engine\1.4.2\junit-platform-engine-1.4.2.jar;C:\Users\james\.m2\repository\org\junit\vintage\junit-vintage-engine\5.4.2\junit-vintage-engine-5.4.2.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="C:\Users\james"/>
@@ -31,7 +31,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="C:\Users\james\AppData\Local\Temp\surefire4402281317354973250\surefirebooter5613010760885413434.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\james\AppData\Local\Temp\surefire4225423435747747006\surefirebooter713928356729686714.jar"/>
     <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_131\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_131\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_131\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_131\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_131\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_131\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_131\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_131\jre\classes"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
@@ -60,46 +60,46 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="52.0"/>
   </properties>
-  <testcase name="AccountTest10" classname="DemoBankingApp.AccountTests" time="1.017"/>
-  <testcase name="AccountTest11" classname="DemoBankingApp.AccountTests" time="0.998"/>
-  <testcase name="AccountTest12" classname="DemoBankingApp.AccountTests" time="1.001"/>
-  <testcase name="AccountTest13" classname="DemoBankingApp.AccountTests" time="1.001"/>
-  <testcase name="AccountTest14" classname="DemoBankingApp.AccountTests" time="1"/>
-  <testcase name="AccountTest15" classname="DemoBankingApp.AccountTests" time="1"/>
+  <testcase name="AccountTest10" classname="DemoBankingApp.AccountTests" time="1.036"/>
+  <testcase name="AccountTest11" classname="DemoBankingApp.AccountTests" time="1.005"/>
+  <testcase name="AccountTest12" classname="DemoBankingApp.AccountTests" time="1.006"/>
+  <testcase name="AccountTest13" classname="DemoBankingApp.AccountTests" time="1.005"/>
+  <testcase name="AccountTest14" classname="DemoBankingApp.AccountTests" time="1.001"/>
+  <testcase name="AccountTest15" classname="DemoBankingApp.AccountTests" time="1.002"/>
   <testcase name="AccountTest16" classname="DemoBankingApp.AccountTests" time="1"/>
-  <testcase name="AccountTest17" classname="DemoBankingApp.AccountTests" time="1.001"/>
-  <testcase name="AccountTest18" classname="DemoBankingApp.AccountTests" time="1"/>
+  <testcase name="AccountTest17" classname="DemoBankingApp.AccountTests" time="1.002"/>
+  <testcase name="AccountTest18" classname="DemoBankingApp.AccountTests" time="1.002"/>
   <testcase name="AccountTest19" classname="DemoBankingApp.AccountTests" time="1"/>
-  <testcase name="AccountTest20" classname="DemoBankingApp.AccountTests" time="1.001"/>
-  <testcase name="AccountTest21" classname="DemoBankingApp.AccountTests" time="1.002"/>
-  <testcase name="AccountTest22" classname="DemoBankingApp.AccountTests" time="1.002"/>
-  <testcase name="AccountTest23" classname="DemoBankingApp.AccountTests" time="1.001"/>
-  <testcase name="AccountTest24" classname="DemoBankingApp.AccountTests" time="1.001"/>
-  <testcase name="AccountTest25" classname="DemoBankingApp.AccountTests" time="1"/>
-  <testcase name="AccountTest26" classname="DemoBankingApp.AccountTests" time="1.001"/>
-  <testcase name="AccountTest27" classname="DemoBankingApp.AccountTests" time="1.001"/>
-  <testcase name="AccountTest28" classname="DemoBankingApp.AccountTests" time="1.002"/>
-  <testcase name="AccountTest29" classname="DemoBankingApp.AccountTests" time="1.002"/>
-  <testcase name="AccountTest30" classname="DemoBankingApp.AccountTests" time="1"/>
-  <testcase name="AccountTest31" classname="DemoBankingApp.AccountTests" time="1"/>
-  <testcase name="AccountTest32" classname="DemoBankingApp.AccountTests" time="1"/>
-  <testcase name="AccountTest33" classname="DemoBankingApp.AccountTests" time="1.001"/>
-  <testcase name="AccountTest34" classname="DemoBankingApp.AccountTests" time="1"/>
+  <testcase name="AccountTest20" classname="DemoBankingApp.AccountTests" time="1.002"/>
+  <testcase name="AccountTest21" classname="DemoBankingApp.AccountTests" time="1"/>
+  <testcase name="AccountTest22" classname="DemoBankingApp.AccountTests" time="1.003"/>
+  <testcase name="AccountTest23" classname="DemoBankingApp.AccountTests" time="1.003"/>
+  <testcase name="AccountTest24" classname="DemoBankingApp.AccountTests" time="1.004"/>
+  <testcase name="AccountTest25" classname="DemoBankingApp.AccountTests" time="1.003"/>
+  <testcase name="AccountTest26" classname="DemoBankingApp.AccountTests" time="1.003"/>
+  <testcase name="AccountTest27" classname="DemoBankingApp.AccountTests" time="1.004"/>
+  <testcase name="AccountTest28" classname="DemoBankingApp.AccountTests" time="1.004"/>
+  <testcase name="AccountTest29" classname="DemoBankingApp.AccountTests" time="1.006"/>
+  <testcase name="AccountTest30" classname="DemoBankingApp.AccountTests" time="1.002"/>
+  <testcase name="AccountTest31" classname="DemoBankingApp.AccountTests" time="1.006"/>
+  <testcase name="AccountTest32" classname="DemoBankingApp.AccountTests" time="1.002"/>
+  <testcase name="AccountTest33" classname="DemoBankingApp.AccountTests" time="1.003"/>
+  <testcase name="AccountTest34" classname="DemoBankingApp.AccountTests" time="1.002"/>
   <testcase name="AccountTest35" classname="DemoBankingApp.AccountTests" time="1.001"/>
-  <testcase name="AccountTest36" classname="DemoBankingApp.AccountTests" time="1"/>
-  <testcase name="AccountTest37" classname="DemoBankingApp.AccountTests" time="1.001"/>
-  <testcase name="AccountTest38" classname="DemoBankingApp.AccountTests" time="1.002"/>
+  <testcase name="AccountTest36" classname="DemoBankingApp.AccountTests" time="1.004"/>
+  <testcase name="AccountTest37" classname="DemoBankingApp.AccountTests" time="1"/>
+  <testcase name="AccountTest38" classname="DemoBankingApp.AccountTests" time="1.001"/>
   <testcase name="AccountTest39" classname="DemoBankingApp.AccountTests" time="1"/>
-  <testcase name="AccountTest40" classname="DemoBankingApp.AccountTests" time="1.001"/>
-  <testcase name="AccountTest41" classname="DemoBankingApp.AccountTests" time="1.001"/>
-  <testcase name="AccountTest42" classname="DemoBankingApp.AccountTests" time="1"/>
-  <testcase name="AccountTest1" classname="DemoBankingApp.AccountTests" time="1.001"/>
-  <testcase name="AccountTest2" classname="DemoBankingApp.AccountTests" time="1.001"/>
-  <testcase name="AccountTest3" classname="DemoBankingApp.AccountTests" time="1.001"/>
-  <testcase name="AccountTest4" classname="DemoBankingApp.AccountTests" time="1"/>
-  <testcase name="AccountTest5" classname="DemoBankingApp.AccountTests" time="1.001"/>
-  <testcase name="AccountTest6" classname="DemoBankingApp.AccountTests" time="1.001"/>
-  <testcase name="AccountTest7" classname="DemoBankingApp.AccountTests" time="1.001"/>
-  <testcase name="AccountTest8" classname="DemoBankingApp.AccountTests" time="1"/>
-  <testcase name="AccountTest9" classname="DemoBankingApp.AccountTests" time="1"/>
+  <testcase name="AccountTest40" classname="DemoBankingApp.AccountTests" time="1"/>
+  <testcase name="AccountTest41" classname="DemoBankingApp.AccountTests" time="1.006"/>
+  <testcase name="AccountTest42" classname="DemoBankingApp.AccountTests" time="1.005"/>
+  <testcase name="AccountTest1" classname="DemoBankingApp.AccountTests" time="1.004"/>
+  <testcase name="AccountTest2" classname="DemoBankingApp.AccountTests" time="1.002"/>
+  <testcase name="AccountTest3" classname="DemoBankingApp.AccountTests" time="1.004"/>
+  <testcase name="AccountTest4" classname="DemoBankingApp.AccountTests" time="1.002"/>
+  <testcase name="AccountTest5" classname="DemoBankingApp.AccountTests" time="1.002"/>
+  <testcase name="AccountTest6" classname="DemoBankingApp.AccountTests" time="1.007"/>
+  <testcase name="AccountTest7" classname="DemoBankingApp.AccountTests" time="1.007"/>
+  <testcase name="AccountTest8" classname="DemoBankingApp.AccountTests" time="1.004"/>
+  <testcase name="AccountTest9" classname="DemoBankingApp.AccountTests" time="1.004"/>
 </testsuite>

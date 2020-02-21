@@ -1,0 +1,3 @@
+python RunTestsWithAppsurify.py --url "https://demo.appsurify.com" --apikey "MTU6a3Q1LUlTU3ZEcktFSTFhQUNoYy1DU3pidkdz" --project "Test New Demo" --testsuite "Selenium" --runtemplate "prioritized tests with unassigned" --testtemplate "mvn"
+
+python RunTestsWithAppsurify.py --url "https://demo.appsurify.com" --apikey "MTU6a3Q1LUlTU3ZEcktFSTFhQUNoYy1DU3pidkdz" --project "Test New Demo" --testsuite "Selenium" --runtemplate "all tests" --testtemplate "mvn"
