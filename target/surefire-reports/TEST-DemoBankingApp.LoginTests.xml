@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="DemoBankingApp.LoginTests" time="92.57" tests="82" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Github\TestBrainBankDemo\target\test-classes;C:\Github\TestBrainBankDemo\target\classes;C:\Users\james\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.4.2\junit-jupiter-api-5.4.2.jar;C:\Users\james\.m2\repository\org\apiguardian\apiguardian-api\1.0.0\apiguardian-api-1.0.0.jar;C:\Users\james\.m2\repository\org\opentest4j\opentest4j\1.1.1\opentest4j-1.1.1.jar;C:\Users\james\.m2\repository\org\junit\platform\junit-platform-commons\1.4.2\junit-platform-commons-1.4.2.jar;C:\Users\james\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.4.2\junit-jupiter-params-5.4.2.jar;C:\Users\james\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\Users\james\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\james\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.4.2\junit-jupiter-engine-5.4.2.jar;C:\Users\james\.m2\repository\org\junit\platform\junit-platform-engine\1.4.2\junit-platform-engine-1.4.2.jar;C:\Users\james\.m2\repository\org\junit\vintage\junit-vintage-engine\5.4.2\junit-vintage-engine-5.4.2.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value="America/Los_Angeles"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="user.country" value="NZ"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_131\jre\bin"/>
+    <property name="sun.java.command" value="C:\Users\james\AppData\Local\Temp\surefire4402281317354973250\surefirebooter5613010760885413434.jar C:\Users\james\AppData\Local\Temp\surefire4402281317354973250 2020-02-20T15-57-34_974-jvmRun1 surefire3980397471946593077tmp surefire_08357707981699140213tmp"/>
+    <property name="surefire.test.class.path" value="C:\Github\TestBrainBankDemo\target\test-classes;C:\Github\TestBrainBankDemo\target\classes;C:\Users\james\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.4.2\junit-jupiter-api-5.4.2.jar;C:\Users\james\.m2\repository\org\apiguardian\apiguardian-api\1.0.0\apiguardian-api-1.0.0.jar;C:\Users\james\.m2\repository\org\opentest4j\opentest4j\1.1.1\opentest4j-1.1.1.jar;C:\Users\james\.m2\repository\org\junit\platform\junit-platform-commons\1.4.2\junit-platform-commons-1.4.2.jar;C:\Users\james\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.4.2\junit-jupiter-params-5.4.2.jar;C:\Users\james\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\Users\james\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\james\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.4.2\junit-jupiter-engine-5.4.2.jar;C:\Users\james\.m2\repository\org\junit\platform\junit-platform-engine\1.4.2\junit-platform-engine-1.4.2.jar;C:\Users\james\.m2\repository\org\junit\vintage\junit-vintage-engine\5.4.2\junit-vintage-engine-5.4.2.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\james"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_131\jre"/>
+    <property name="basedir" value="C:\Github\TestBrainBankDemo"/>
+    <property name="file.separator" value="\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\james\AppData\Local\Temp\surefire4402281317354973250\surefirebooter5613010760885413434.jar"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_131\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_131\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_131\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_131\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_131\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_131\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_131\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_131\jre\classes"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="1.8.0_131-b11"/>
+    <property name="user.name" value="james"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_131\jre\lib\endorsed"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\james\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\james\AppData\Local\Temp\"/>
+    <property name="java.version" value="1.8.0_131"/>
+    <property name="user.dir" value="C:\Github\TestBrainBankDemo"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_131\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\ProgramData\DockerDesktop\version-bin;C:\Program Files\Docker\Docker\Resources\bin;C:\Program Files (x86)\Intel\iCLS Client\;C:\ProgramData\Oracle\Java\javapath;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Java\jdk1.8.0_131\bin;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\nodejs\;C:\Program Files\PuTTY\;C:\apache\apache-maven-3.5.0\bin;C:\apache\apache-ant-1.10.5\bin;C:\gradle-5.6.2\bin;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Users\james\AppData\Local\Programs\Python\Python38;C:\Program Files\Perforce;C:\Users\james\AppData\Local\Programs\Python\Python38\Scripts;C:\Program Files (x86)\Windows Kits\10\bin\10.0.18362.0\x86;C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\VC\Tools\MSVC\14.24.28314\bin\Hostx64\x64;C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\VC\Tools\MSVC\14.24.28314\include;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\g++\MinGW\bin;C:\GitTFS\GitTfs-0.30.0;C:\Program Files\Git\cmd;C:\WINDOWS\system32\config\systemprofile\.dnx\bin;C:\Program Files\Microsoft DNX\Dnvm\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE;C:\Program Files (x86)\Microsoft Team Foundation Server 2015 Power Tools\;C:\Ruby26-x64\bin;C:\Users\james\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Java\jdk1.8.0_131\bin;C:\Users\james\AppData\Roaming\npm;C:\Users\james\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\james\AppData\Local\GitHubDesktop\bin;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="25.131-b11"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_131\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="52.0"/>
+  </properties>
+  <testcase name="LoginTest10" classname="DemoBankingApp.LoginTests" time="1.093"/>
+  <testcase name="LoginTest1" classname="DemoBankingApp.LoginTests" time="1.125"/>
+  <testcase name="LoginTest2" classname="DemoBankingApp.LoginTests" time="1.126"/>
+  <testcase name="LoginTest3" classname="DemoBankingApp.LoginTests" time="1.126"/>
+  <testcase name="LoginTest4" classname="DemoBankingApp.LoginTests" time="1.127"/>
+  <testcase name="LoginTest5" classname="DemoBankingApp.LoginTests" time="1.126"/>
+  <testcase name="LoginTest6" classname="DemoBankingApp.LoginTests" time="1.127"/>
+  <testcase name="LoginTest7" classname="DemoBankingApp.LoginTests" time="1.127"/>
+  <testcase name="LoginTest8" classname="DemoBankingApp.LoginTests" time="1.126"/>
+  <testcase name="LoginTest9" classname="DemoBankingApp.LoginTests" time="1.126"/>
+  <testcase name="LoginAdditionalTest[1]" classname="DemoBankingApp.LoginTests" time="1.125"/>
+  <testcase name="LoginAdditionalTest[2]" classname="DemoBankingApp.LoginTests" time="1.126"/>
+  <testcase name="LoginAdditionalTest[3]" classname="DemoBankingApp.LoginTests" time="1.136"/>
+  <testcase name="LoginAdditionalTest[4]" classname="DemoBankingApp.LoginTests" time="1.129"/>
+  <testcase name="LoginAdditionalTest[5]" classname="DemoBankingApp.LoginTests" time="1.129"/>
+  <testcase name="LoginAdditionalTest[6]" classname="DemoBankingApp.LoginTests" time="1.126"/>
+  <testcase name="LoginAdditionalTest[7]" classname="DemoBankingApp.LoginTests" time="1.129"/>
+  <testcase name="LoginAdditionalTest[8]" classname="DemoBankingApp.LoginTests" time="1.132"/>
+  <testcase name="LoginAdditionalTest[9]" classname="DemoBankingApp.LoginTests" time="1.129"/>
+  <testcase name="LoginAdditionalTest[10]" classname="DemoBankingApp.LoginTests" time="1.157"/>
+  <testcase name="LoginAdditionalTest[11]" classname="DemoBankingApp.LoginTests" time="1.127"/>
+  <testcase name="LoginAdditionalTest[12]" classname="DemoBankingApp.LoginTests" time="1.131"/>
+  <testcase name="LoginAdditionalTest[13]" classname="DemoBankingApp.LoginTests" time="1.136"/>
+  <testcase name="LoginAdditionalTest[14]" classname="DemoBankingApp.LoginTests" time="1.128"/>
+  <testcase name="LoginAdditionalTest[15]" classname="DemoBankingApp.LoginTests" time="1.134"/>
+  <testcase name="LoginAdditionalTest[16]" classname="DemoBankingApp.LoginTests" time="1.127"/>
+  <testcase name="LoginAdditionalTest[17]" classname="DemoBankingApp.LoginTests" time="1.126"/>
+  <testcase name="LoginAdditionalTest[18]" classname="DemoBankingApp.LoginTests" time="1.127"/>
+  <testcase name="LoginAdditionalTest[19]" classname="DemoBankingApp.LoginTests" time="1.126"/>
+  <testcase name="LoginAdditionalTest[20]" classname="DemoBankingApp.LoginTests" time="1.125"/>
+  <testcase name="LoginAdditionalTest[21]" classname="DemoBankingApp.LoginTests" time="1.171"/>
+  <testcase name="LoginAdditionalTest[22]" classname="DemoBankingApp.LoginTests" time="1.125"/>
+  <testcase name="LoginAdditionalTest[23]" classname="DemoBankingApp.LoginTests" time="1.126"/>
+  <testcase name="LoginAdditionalTest[24]" classname="DemoBankingApp.LoginTests" time="1.125"/>
+  <testcase name="LoginAdditionalTest[25]" classname="DemoBankingApp.LoginTests" time="1.126"/>
+  <testcase name="LoginAdditionalTest[26]" classname="DemoBankingApp.LoginTests" time="1.125"/>
+  <testcase name="LoginAdditionalTest[27]" classname="DemoBankingApp.LoginTests" time="1.127"/>
+  <testcase name="LoginAdditionalTest[28]" classname="DemoBankingApp.LoginTests" time="1.126"/>
+  <testcase name="LoginAdditionalTest[29]" classname="DemoBankingApp.LoginTests" time="1.126"/>
+  <testcase name="LoginAdditionalTest[30]" classname="DemoBankingApp.LoginTests" time="1.132"/>
+  <testcase name="LoginAdditionalTest[31]" classname="DemoBankingApp.LoginTests" time="1.128"/>
+  <testcase name="LoginAdditionalTest[32]" classname="DemoBankingApp.LoginTests" time="1.126"/>
+  <testcase name="LoginAdditionalTest[33]" classname="DemoBankingApp.LoginTests" time="1.125"/>
+  <testcase name="LoginAdditionalTest[34]" classname="DemoBankingApp.LoginTests" time="1.126"/>
+  <testcase name="LoginAdditionalTest[35]" classname="DemoBankingApp.LoginTests" time="1.126"/>
+  <testcase name="LoginAdditionalTest[36]" classname="DemoBankingApp.LoginTests" time="1.125"/>
+  <testcase name="LoginAdditionalTest[37]" classname="DemoBankingApp.LoginTests" time="1.125"/>
+  <testcase name="LoginAdditionalTest[38]" classname="DemoBankingApp.LoginTests" time="1.126"/>
+  <testcase name="LoginAdditionalTest[39]" classname="DemoBankingApp.LoginTests" time="1.126"/>
+  <testcase name="LoginAdditionalTest[40]" classname="DemoBankingApp.LoginTests" time="1.126"/>
+  <testcase name="LoginAdditionalTest[41]" classname="DemoBankingApp.LoginTests" time="1.125"/>
+  <testcase name="LoginAdditionalTest[42]" classname="DemoBankingApp.LoginTests" time="1.125"/>
+  <testcase name="LoginAdditionalTest[43]" classname="DemoBankingApp.LoginTests" time="1.124"/>
+  <testcase name="LoginAdditionalTest[44]" classname="DemoBankingApp.LoginTests" time="1.126"/>
+  <testcase name="LoginAdditionalTest[45]" classname="DemoBankingApp.LoginTests" time="1.125"/>
+  <testcase name="LoginAdditionalTest[46]" classname="DemoBankingApp.LoginTests" time="1.126"/>
+  <testcase name="LoginAdditionalTest[47]" classname="DemoBankingApp.LoginTests" time="1.125"/>
+  <testcase name="LoginAdditionalTest[48]" classname="DemoBankingApp.LoginTests" time="1.127"/>
+  <testcase name="LoginAdditionalTest[49]" classname="DemoBankingApp.LoginTests" time="1.125"/>
+  <testcase name="LoginAdditionalTest[50]" classname="DemoBankingApp.LoginTests" time="1.126"/>
+  <testcase name="LoginAdditionalTest[51]" classname="DemoBankingApp.LoginTests" time="1.126"/>
+  <testcase name="LoginAdditionalTest[52]" classname="DemoBankingApp.LoginTests" time="1.125"/>
+  <testcase name="LoginAdditionalTest[53]" classname="DemoBankingApp.LoginTests" time="1.125"/>
+  <testcase name="LoginAdditionalTest[54]" classname="DemoBankingApp.LoginTests" time="1.125"/>
+  <testcase name="LoginAdditionalTest[55]" classname="DemoBankingApp.LoginTests" time="1.126"/>
+  <testcase name="LoginAdditionalTest[56]" classname="DemoBankingApp.LoginTests" time="1.126"/>
+  <testcase name="LoginAdditionalTest[57]" classname="DemoBankingApp.LoginTests" time="1.125"/>
+  <testcase name="LoginAdditionalTest[58]" classname="DemoBankingApp.LoginTests" time="1.126"/>
+  <testcase name="LoginAdditionalTest[59]" classname="DemoBankingApp.LoginTests" time="1.125"/>
+  <testcase name="LoginAdditionalTest[60]" classname="DemoBankingApp.LoginTests" time="1.126"/>
+  <testcase name="LoginAdditionalTest[61]" classname="DemoBankingApp.LoginTests" time="1.126"/>
+  <testcase name="LoginAdditionalTest[62]" classname="DemoBankingApp.LoginTests" time="1.125"/>
+  <testcase name="LoginAdditionalTest[63]" classname="DemoBankingApp.LoginTests" time="1.126"/>
+  <testcase name="LoginAdditionalTest[64]" classname="DemoBankingApp.LoginTests" time="1.125"/>
+  <testcase name="LoginAdditionalTest[65]" classname="DemoBankingApp.LoginTests" time="1.126"/>
+  <testcase name="LoginAdditionalTest[66]" classname="DemoBankingApp.LoginTests" time="1.125"/>
+  <testcase name="LoginAdditionalTest[67]" classname="DemoBankingApp.LoginTests" time="1.126"/>
+  <testcase name="LoginAdditionalTest[68]" classname="DemoBankingApp.LoginTests" time="1.126"/>
+  <testcase name="LoginAdditionalTest[69]" classname="DemoBankingApp.LoginTests" time="1.125"/>
+  <testcase name="LoginAdditionalTest[70]" classname="DemoBankingApp.LoginTests" time="1.126"/>
+  <testcase name="LoginAdditionalTest[71]" classname="DemoBankingApp.LoginTests" time="1.126"/>
+  <testcase name="LoginAdditionalTest[72]" classname="DemoBankingApp.LoginTests" time="1.126"/>
+</testsuite>

@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: DemoBankingApp.BranchConfigurationTests
+-------------------------------------------------------------------------------
+Tests run: 35, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 61.326 s - in DemoBankingApp.BranchConfigurationTests

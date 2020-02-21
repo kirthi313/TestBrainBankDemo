@@ -1,0 +1,529 @@
+# Created at 2020-02-20T15:57:28.398
+TestSet has not finished before stream error has appeared >> initializing exit by non-null configuration: null
+java.io.EOFException
+	at java.io.DataInputStream.readInt(DataInputStream.java:392)
+	at org.apache.maven.surefire.booter.MasterProcessCommand.decode(MasterProcessCommand.java:115)
+	at org.apache.maven.surefire.booter.CommandReader$CommandRunnable.run(CommandReader.java:391)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+# Created at 2020-02-20T15:57:29.786
+Unexpected IOException: 6,1,DemoBankingApp.CreditCardApplicationTests,CreditCardApplicationTest4,null,null,null
+
+
+# Created at 2020-02-20T15:57:29.795
+Unexpected IOException: 5,1,DemoBankingApp.CreditCardApplicationTests,CreditCardApplicationTest5,null,null,null
+
+
+# Created at 2020-02-20T15:57:31.302
+Unexpected IOException: 6,1,DemoBankingApp.CreditCardApplicationTests,CreditCardApplicationTest5,null,null,null
+
+
+# Created at 2020-02-20T15:57:31.311
+Unexpected IOException: 2,1,org.apache.maven.surefire.junitplatform.JUnitPlatformProvider,DemoBankingApp.CreditCardApplicationTests,null,null,null
+
+
+# Created at 2020-02-20T15:57:31.317
+Unexpected IOException: 1,1,org.apache.maven.surefire.junitplatform.JUnitPlatformProvider,DemoBankingApp.CreditCardInterestTests,null,null,null
+
+
+# Created at 2020-02-20T15:57:31.325
+Unexpected IOException: 5,1,DemoBankingApp.CreditCardInterestTests,CreditCardInterestInterestTest10,null,null,null
+
+
+# Created at 2020-02-20T15:57:31.834
+Unexpected IOException: 6,1,DemoBankingApp.CreditCardInterestTests,CreditCardInterestInterestTest10,null,null,null
+
+
+# Created at 2020-02-20T15:57:31.843
+Unexpected IOException: 5,1,DemoBankingApp.CreditCardInterestTests,CreditCardInterestInterestTest1,null,null,null
+
+
+# Created at 2020-02-20T15:57:32.351
+Unexpected IOException: 6,1,DemoBankingApp.CreditCardInterestTests,CreditCardInterestInterestTest1,null,null,null
+
+
+# Created at 2020-02-20T15:57:32.360
+Unexpected IOException: 5,1,DemoBankingApp.CreditCardInterestTests,CreditCardInterestInterestTest2,null,null,null
+
+
+# Created at 2020-02-20T15:57:32.870
+Unexpected IOException: 6,1,DemoBankingApp.CreditCardInterestTests,CreditCardInterestInterestTest2,null,null,null
+
+
+# Created at 2020-02-20T15:57:32.887
+Unexpected IOException: 5,1,DemoBankingApp.CreditCardInterestTests,CreditCardInterestInterestTest3,null,null,null
+
+
+# Created at 2020-02-20T15:57:33.402
+Unexpected IOException: 6,1,DemoBankingApp.CreditCardInterestTests,CreditCardInterestInterestTest3,null,null,null
+
+
+# Created at 2020-02-20T15:57:33.436
+Unexpected IOException: 5,1,DemoBankingApp.CreditCardInterestTests,CreditCardInterestInterestTest4,null,null,null
+
+
+# Created at 2020-02-20T15:57:33.962
+Unexpected IOException: 6,1,DemoBankingApp.CreditCardInterestTests,CreditCardInterestInterestTest4,null,null,null
+
+
+# Created at 2020-02-20T15:57:33.972
+Unexpected IOException: 5,1,DemoBankingApp.CreditCardInterestTests,CreditCardInterestInterestTest5,null,null,null
+
+
+# Created at 2020-02-20T15:57:34.506
+Unexpected IOException: 6,1,DemoBankingApp.CreditCardInterestTests,CreditCardInterestInterestTest5,null,null,null
+
+
+# Created at 2020-02-20T15:57:34.515
+Unexpected IOException: 5,1,DemoBankingApp.CreditCardInterestTests,CreditCardInterestInterestTest6,null,null,null
+
+
+# Created at 2020-02-20T15:57:35.027
+Unexpected IOException: 6,1,DemoBankingApp.CreditCardInterestTests,CreditCardInterestInterestTest6,null,null,null
+
+
+# Created at 2020-02-20T15:57:35.034
+Unexpected IOException: 5,1,DemoBankingApp.CreditCardInterestTests,CreditCardInterestInterestTest7,null,null,null
+
+
+# Created at 2020-02-20T15:57:35.542
+Unexpected IOException: 6,1,DemoBankingApp.CreditCardInterestTests,CreditCardInterestInterestTest7,null,null,null
+
+
+# Created at 2020-02-20T15:57:35.550
+Unexpected IOException: 5,1,DemoBankingApp.CreditCardInterestTests,CreditCardInterestInterestTest8,null,null,null
+
+
+# Created at 2020-02-20T15:57:36.058
+Unexpected IOException: 6,1,DemoBankingApp.CreditCardInterestTests,CreditCardInterestInterestTest8,null,null,null
+
+
+# Created at 2020-02-20T15:57:36.075
+Unexpected IOException: 5,1,DemoBankingApp.CreditCardInterestTests,CreditCardInterestInterestTest9,null,null,null
+
+
+# Created at 2020-02-20T15:57:36.592
+Unexpected IOException: 6,1,DemoBankingApp.CreditCardInterestTests,CreditCardInterestInterestTest9,null,null,null
+
+
+# Created at 2020-02-20T15:57:36.599
+Unexpected IOException: 5,1,DemoBankingApp.CreditCardInterestTests,CreditCardInterestInterestAdditionalTest[1],null,null,null
+
+
+# Created at 2020-02-20T15:57:37.107
+Unexpected IOException: 6,1,DemoBankingApp.CreditCardInterestTests,CreditCardInterestInterestAdditionalTest[1],null,null,null
+
+
+# Created at 2020-02-20T15:57:37.114
+Unexpected IOException: 5,1,DemoBankingApp.CreditCardInterestTests,CreditCardInterestInterestAdditionalTest[2],null,null,null
+
+
+# Created at 2020-02-20T15:57:37.620
+Unexpected IOException: 6,1,DemoBankingApp.CreditCardInterestTests,CreditCardInterestInterestAdditionalTest[2],null,null,null
+
+
+# Created at 2020-02-20T15:57:37.627
+Unexpected IOException: 5,1,DemoBankingApp.CreditCardInterestTests,CreditCardInterestInterestAdditionalTest[3],null,null,null
+
+
+# Created at 2020-02-20T15:57:38.135
+Unexpected IOException: 6,1,DemoBankingApp.CreditCardInterestTests,CreditCardInterestInterestAdditionalTest[3],null,null,null
+
+
+# Created at 2020-02-20T15:57:38.150
+Unexpected IOException: 5,1,DemoBankingApp.CreditCardInterestTests,CreditCardInterestInterestAdditionalTest[4],null,null,null
+
+
+# Created at 2020-02-20T15:57:38.659
+Unexpected IOException: 6,1,DemoBankingApp.CreditCardInterestTests,CreditCardInterestInterestAdditionalTest[4],null,null,null
+
+
+# Created at 2020-02-20T15:57:38.667
+Unexpected IOException: 5,1,DemoBankingApp.CreditCardInterestTests,CreditCardInterestInterestAdditionalTest[5],null,null,null
+
+
+# Created at 2020-02-20T15:57:39.174
+Unexpected IOException: 6,1,DemoBankingApp.CreditCardInterestTests,CreditCardInterestInterestAdditionalTest[5],null,null,null
+
+
+# Created at 2020-02-20T15:57:39.182
+Unexpected IOException: 5,1,DemoBankingApp.CreditCardInterestTests,CreditCardInterestInterestAdditionalTest[6],null,null,null
+
+
+# Created at 2020-02-20T15:57:39.689
+Unexpected IOException: 6,1,DemoBankingApp.CreditCardInterestTests,CreditCardInterestInterestAdditionalTest[6],null,null,null
+
+
+# Created at 2020-02-20T15:57:39.699
+Unexpected IOException: 5,1,DemoBankingApp.CreditCardInterestTests,CreditCardInterestInterestAdditionalTest[7],null,null,null
+
+
+# Created at 2020-02-20T15:57:40.205
+Unexpected IOException: 6,1,DemoBankingApp.CreditCardInterestTests,CreditCardInterestInterestAdditionalTest[7],null,null,null
+
+
+# Created at 2020-02-20T15:57:40.213
+Unexpected IOException: 5,1,DemoBankingApp.CreditCardInterestTests,CreditCardInterestInterestAdditionalTest[8],null,null,null
+
+
+# Created at 2020-02-20T15:57:40.719
+Unexpected IOException: 6,1,DemoBankingApp.CreditCardInterestTests,CreditCardInterestInterestAdditionalTest[8],null,null,null
+
+
+# Created at 2020-02-20T15:57:40.732
+Unexpected IOException: 5,1,DemoBankingApp.CreditCardInterestTests,CreditCardInterestInterestAdditionalTest[9],null,null,null
+
+
+# Created at 2020-02-20T15:57:41.239
+Unexpected IOException: 6,1,DemoBankingApp.CreditCardInterestTests,CreditCardInterestInterestAdditionalTest[9],null,null,null
+
+
+# Created at 2020-02-20T15:57:41.246
+Unexpected IOException: 5,1,DemoBankingApp.CreditCardInterestTests,CreditCardInterestInterestAdditionalTest[10],null,null,null
+
+
+# Created at 2020-02-20T15:57:41.753
+Unexpected IOException: 6,1,DemoBankingApp.CreditCardInterestTests,CreditCardInterestInterestAdditionalTest[10],null,null,null
+
+
+# Created at 2020-02-20T15:57:41.760
+Unexpected IOException: 5,1,DemoBankingApp.CreditCardInterestTests,CreditCardInterestInterestAdditionalTest[11],null,null,null
+
+
+# Created at 2020-02-20T15:57:42.267
+Unexpected IOException: 6,1,DemoBankingApp.CreditCardInterestTests,CreditCardInterestInterestAdditionalTest[11],null,null,null
+
+
+# Created at 2020-02-20T15:57:42.274
+Unexpected IOException: 2,1,org.apache.maven.surefire.junitplatform.JUnitPlatformProvider,DemoBankingApp.CreditCardInterestTests,null,null,null
+
+
+# Created at 2020-02-20T15:57:42.283
+Unexpected IOException: 1,1,org.apache.maven.surefire.junitplatform.JUnitPlatformProvider,DemoBankingApp.JointAccountTests,null,null,null
+
+
+# Created at 2020-02-20T15:57:42.289
+Unexpected IOException: 5,1,DemoBankingApp.JointAccountTests,JointAccountAdditionalTest[1],null,null,null
+
+
+# Created at 2020-02-20T15:57:43.045
+Unexpected IOException: 6,1,DemoBankingApp.JointAccountTests,JointAccountAdditionalTest[1],null,null,null
+
+
+# Created at 2020-02-20T15:57:43.052
+Unexpected IOException: 5,1,DemoBankingApp.JointAccountTests,JointAccountAdditionalTest[2],null,null,null
+
+
+# Created at 2020-02-20T15:57:43.812
+Unexpected IOException: 6,1,DemoBankingApp.JointAccountTests,JointAccountAdditionalTest[2],null,null,null
+
+
+# Created at 2020-02-20T15:57:43.819
+Unexpected IOException: 5,1,DemoBankingApp.JointAccountTests,JointAccountAdditionalTest[3],null,null,null
+
+
+# Created at 2020-02-20T15:57:44.576
+Unexpected IOException: 6,1,DemoBankingApp.JointAccountTests,JointAccountAdditionalTest[3],null,null,null
+
+
+# Created at 2020-02-20T15:57:44.583
+Unexpected IOException: 5,1,DemoBankingApp.JointAccountTests,JointAccountAdditionalTest[4],null,null,null
+
+
+# Created at 2020-02-20T15:57:45.340
+Unexpected IOException: 6,1,DemoBankingApp.JointAccountTests,JointAccountAdditionalTest[4],null,null,null
+
+
+# Created at 2020-02-20T15:57:45.346
+Unexpected IOException: 5,1,DemoBankingApp.JointAccountTests,JointAccountAdditionalTest[5],null,null,null
+
+
+# Created at 2020-02-20T15:57:46.102
+Unexpected IOException: 6,1,DemoBankingApp.JointAccountTests,JointAccountAdditionalTest[5],null,null,null
+
+
+# Created at 2020-02-20T15:57:46.117
+Unexpected IOException: 5,1,DemoBankingApp.JointAccountTests,JointAccountAdditionalTest[6],null,null,null
+
+
+# Created at 2020-02-20T15:57:46.880
+Unexpected IOException: 6,1,DemoBankingApp.JointAccountTests,JointAccountAdditionalTest[6],null,null,null
+
+
+# Created at 2020-02-20T15:57:46.888
+Unexpected IOException: 5,1,DemoBankingApp.JointAccountTests,JointAccountAdditionalTest[7],null,null,null
+
+
+# Created at 2020-02-20T15:57:47.643
+Unexpected IOException: 6,1,DemoBankingApp.JointAccountTests,JointAccountAdditionalTest[7],null,null,null
+
+
+# Created at 2020-02-20T15:57:47.649
+Unexpected IOException: 5,1,DemoBankingApp.JointAccountTests,JointAccountAdditionalTest[8],null,null,null
+
+
+# Created at 2020-02-20T15:57:48.412
+Unexpected IOException: 6,1,DemoBankingApp.JointAccountTests,JointAccountAdditionalTest[8],null,null,null
+
+
+# Created at 2020-02-20T15:57:48.434
+Unexpected IOException: 5,1,DemoBankingApp.JointAccountTests,JointAccountAdditionalTest[9],null,null,null
+
+
+# Created at 2020-02-20T15:57:49.199
+Unexpected IOException: 6,1,DemoBankingApp.JointAccountTests,JointAccountAdditionalTest[9],null,null,null
+
+
+# Created at 2020-02-20T15:57:49.207
+Unexpected IOException: 5,1,DemoBankingApp.JointAccountTests,JointAccountTest10,null,null,null
+
+
+# Created at 2020-02-20T15:57:49.963
+Unexpected IOException: 6,1,DemoBankingApp.JointAccountTests,JointAccountTest10,null,null,null
+
+
+# Created at 2020-02-20T15:57:49.970
+Unexpected IOException: 5,1,DemoBankingApp.JointAccountTests,JointAccountTest1,null,null,null
+
+
+# Created at 2020-02-20T15:57:50.730
+Unexpected IOException: 6,1,DemoBankingApp.JointAccountTests,JointAccountTest1,null,null,null
+
+
+# Created at 2020-02-20T15:57:50.737
+Unexpected IOException: 5,1,DemoBankingApp.JointAccountTests,JointAccountTest2,null,null,null
+
+
+# Created at 2020-02-20T15:57:51.499
+Unexpected IOException: 6,1,DemoBankingApp.JointAccountTests,JointAccountTest2,null,null,null
+
+
+# Created at 2020-02-20T15:57:51.507
+Unexpected IOException: 5,1,DemoBankingApp.JointAccountTests,JointAccountTest3,null,null,null
+
+
+# Created at 2020-02-20T15:57:52.263
+Unexpected IOException: 6,1,DemoBankingApp.JointAccountTests,JointAccountTest3,null,null,null
+
+
+# Created at 2020-02-20T15:57:52.271
+Unexpected IOException: 5,1,DemoBankingApp.JointAccountTests,JointAccountTest4,null,null,null
+
+
+# Created at 2020-02-20T15:57:53.029
+Unexpected IOException: 6,1,DemoBankingApp.JointAccountTests,JointAccountTest4,null,null,null
+
+
+# Created at 2020-02-20T15:57:53.036
+Unexpected IOException: 5,1,DemoBankingApp.JointAccountTests,JointAccountTest5,null,null,null
+
+
+# Created at 2020-02-20T15:57:53.798
+Unexpected IOException: 6,1,DemoBankingApp.JointAccountTests,JointAccountTest5,null,null,null
+
+
+# Created at 2020-02-20T15:57:53.807
+Unexpected IOException: 5,1,DemoBankingApp.JointAccountTests,JointAccountTest6,null,null,null
+
+
+# Created at 2020-02-20T15:57:54.562
+Unexpected IOException: 6,1,DemoBankingApp.JointAccountTests,JointAccountTest6,null,null,null
+
+
+# Created at 2020-02-20T15:57:54.571
+Unexpected IOException: 5,1,DemoBankingApp.JointAccountTests,JointAccountTest7,null,null,null
+
+
+# Created at 2020-02-20T15:57:55.330
+Unexpected IOException: 6,1,DemoBankingApp.JointAccountTests,JointAccountTest7,null,null,null
+
+
+# Created at 2020-02-20T15:57:55.338
+Unexpected IOException: 5,1,DemoBankingApp.JointAccountTests,JointAccountTest8,null,null,null
+
+
+# Created at 2020-02-20T15:57:56.095
+Unexpected IOException: 6,1,DemoBankingApp.JointAccountTests,JointAccountTest8,null,null,null
+
+
+# Created at 2020-02-20T15:57:56.102
+Unexpected IOException: 5,1,DemoBankingApp.JointAccountTests,JointAccountTest9,null,null,null
+
+
+# Created at 2020-02-20T15:57:56.875
+Unexpected IOException: 6,1,DemoBankingApp.JointAccountTests,JointAccountTest9,null,null,null
+
+
+# Created at 2020-02-20T15:57:56.883
+Unexpected IOException: 2,1,org.apache.maven.surefire.junitplatform.JUnitPlatformProvider,DemoBankingApp.JointAccountTests,null,null,null
+
+
+# Created at 2020-02-20T15:57:56.897
+Unexpected IOException: 1,1,org.apache.maven.surefire.junitplatform.JUnitPlatformProvider,DemoBankingApp.LoginTests,null,null,null
+
+
+# Created at 2020-02-20T15:57:56.905
+Unexpected IOException: 5,1,DemoBankingApp.LoginTests,LoginTest10,null,null,null
+
+
+# Created at 2020-02-20T15:57:58.036
+Unexpected IOException: 6,1,DemoBankingApp.LoginTests,LoginTest10,null,null,null
+
+
+# Created at 2020-02-20T15:57:58.044
+Unexpected IOException: 5,1,DemoBankingApp.LoginTests,LoginTest1,null,null,null
+
+
+# Created at 2020-02-20T15:57:59.177
+Unexpected IOException: 6,1,DemoBankingApp.LoginTests,LoginTest1,null,null,null
+
+
+# Created at 2020-02-20T15:57:59.183
+Unexpected IOException: 5,1,DemoBankingApp.LoginTests,LoginTest2,null,null,null
+
+
+# Created at 2020-02-20T15:58:00.316
+Unexpected IOException: 6,1,DemoBankingApp.LoginTests,LoginTest2,null,null,null
+
+
+# Created at 2020-02-20T15:58:00.324
+Unexpected IOException: 5,1,DemoBankingApp.LoginTests,LoginTest3,null,null,null
+
+
+# Created at 2020-02-20T15:58:01.459
+Unexpected IOException: 6,1,DemoBankingApp.LoginTests,LoginTest3,null,null,null
+
+
+# Created at 2020-02-20T15:58:01.472
+Unexpected IOException: 5,1,DemoBankingApp.LoginTests,LoginTest4,null,null,null
+
+
+# Created at 2020-02-20T15:58:02.611
+Unexpected IOException: 6,1,DemoBankingApp.LoginTests,LoginTest4,null,null,null
+
+
+# Created at 2020-02-20T15:58:02.618
+Unexpected IOException: 5,1,DemoBankingApp.LoginTests,LoginTest5,null,null,null
+
+
+# Created at 2020-02-20T15:58:03.750
+Unexpected IOException: 6,1,DemoBankingApp.LoginTests,LoginTest5,null,null,null
+
+
+# Created at 2020-02-20T15:58:03.762
+Unexpected IOException: 5,1,DemoBankingApp.LoginTests,LoginTest6,null,null,null
+
+
+# Created at 2020-02-20T15:58:04.893
+Unexpected IOException: 6,1,DemoBankingApp.LoginTests,LoginTest6,null,null,null
+
+
+# Created at 2020-02-20T15:58:04.900
+Unexpected IOException: 5,1,DemoBankingApp.LoginTests,LoginTest7,null,null,null
+
+
+# Created at 2020-02-20T15:58:06.034
+Unexpected IOException: 6,1,DemoBankingApp.LoginTests,LoginTest7,null,null,null
+
+
+# Created at 2020-02-20T15:58:06.047
+Unexpected IOException: 5,1,DemoBankingApp.LoginTests,LoginTest8,null,null,null
+
+
+# Created at 2020-02-20T15:58:07.182
+Unexpected IOException: 6,1,DemoBankingApp.LoginTests,LoginTest8,null,null,null
+
+
+# Created at 2020-02-20T15:58:07.190
+Unexpected IOException: 5,1,DemoBankingApp.LoginTests,LoginTest9,null,null,null
+
+
+# Created at 2020-02-20T15:58:08.322
+Unexpected IOException: 6,1,DemoBankingApp.LoginTests,LoginTest9,null,null,null
+
+
+# Created at 2020-02-20T15:58:08.329
+Unexpected IOException: 5,1,DemoBankingApp.LoginTests,LoginAdditionalTest[1],null,null,null
+
+
+# Created at 2020-02-20T15:58:09.463
+Unexpected IOException: 6,1,DemoBankingApp.LoginTests,LoginAdditionalTest[1],null,null,null
+
+
+# Created at 2020-02-20T15:58:09.481
+Unexpected IOException: 5,1,DemoBankingApp.LoginTests,LoginAdditionalTest[2],null,null,null
+
+
+# Created at 2020-02-20T15:58:10.620
+Unexpected IOException: 6,1,DemoBankingApp.LoginTests,LoginAdditionalTest[2],null,null,null
+
+
+# Created at 2020-02-20T15:58:10.631
+Unexpected IOException: 5,1,DemoBankingApp.LoginTests,LoginAdditionalTest[3],null,null,null
+
+
+# Created at 2020-02-20T15:58:11.767
+Unexpected IOException: 6,1,DemoBankingApp.LoginTests,LoginAdditionalTest[3],null,null,null
+
+
+# Created at 2020-02-20T15:58:11.777
+Unexpected IOException: 5,1,DemoBankingApp.LoginTests,LoginAdditionalTest[4],null,null,null
+
+
+# Created at 2020-02-20T15:58:12.908
+Unexpected IOException: 6,1,DemoBankingApp.LoginTests,LoginAdditionalTest[4],null,null,null
+
+
+# Created at 2020-02-20T15:58:12.915
+Unexpected IOException: 5,1,DemoBankingApp.LoginTests,LoginAdditionalTest[5],null,null,null
+
+
+# Created at 2020-02-20T15:58:14.046
+Unexpected IOException: 6,1,DemoBankingApp.LoginTests,LoginAdditionalTest[5],null,null,null
+
+
+# Created at 2020-02-20T15:58:14.058
+Unexpected IOException: 5,1,DemoBankingApp.LoginTests,LoginAdditionalTest[6],null,null,null
+
+
+# Created at 2020-02-20T15:58:15.191
+Unexpected IOException: 6,1,DemoBankingApp.LoginTests,LoginAdditionalTest[6],null,null,null
+
+
+# Created at 2020-02-20T15:58:15.198
+Unexpected IOException: 5,1,DemoBankingApp.LoginTests,LoginAdditionalTest[7],null,null,null
+
+
+# Created at 2020-02-20T15:58:16.335
+Unexpected IOException: 6,1,DemoBankingApp.LoginTests,LoginAdditionalTest[7],null,null,null
+
+
+# Created at 2020-02-20T15:58:16.343
+Unexpected IOException: 5,1,DemoBankingApp.LoginTests,LoginAdditionalTest[8],null,null,null
+
+
+# Created at 2020-02-20T15:58:17.475
+Unexpected IOException: 6,1,DemoBankingApp.LoginTests,LoginAdditionalTest[8],null,null,null
+
+
+# Created at 2020-02-20T15:58:17.482
+Unexpected IOException: 5,1,DemoBankingApp.LoginTests,LoginAdditionalTest[9],null,null,null
+
+
+# Created at 2020-02-20T15:58:18.616
+Unexpected IOException: 6,1,DemoBankingApp.LoginTests,LoginAdditionalTest[9],null,null,null
+
+
+# Created at 2020-02-20T15:58:18.631
+Unexpected IOException: 5,1,DemoBankingApp.LoginTests,LoginAdditionalTest[10],null,null,null
+
+
+# Created at 2020-02-20T15:58:19.781
+Unexpected IOException: 6,1,DemoBankingApp.LoginTests,LoginAdditionalTest[10],null,null,null
+
+
+# Created at 2020-02-20T15:58:19.790
+Unexpected IOException: 5,1,DemoBankingApp.LoginTests,LoginAdditionalTest[11],null,null,null
+
+
