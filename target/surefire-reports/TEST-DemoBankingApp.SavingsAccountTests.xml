@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="DemoBankingApp.OnlineAccountTests" time="4.408" tests="22" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="DemoBankingApp.SavingsAccountTests" time="36.074" tests="48" errors="0" skipped="0" failures="0">
   <properties>
     <property name="sun.desktop" value="windows"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -60,26 +60,52 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="52.0"/>
   </properties>
-  <testcase name="OnlineAccountTest1" classname="DemoBankingApp.OnlineAccountTests" time="0.164"/>
-  <testcase name="OnlineAccountTest2" classname="DemoBankingApp.OnlineAccountTests" time="0.204"/>
-  <testcase name="OnlineAccountTest3" classname="DemoBankingApp.OnlineAccountTests" time="0.204"/>
-  <testcase name="OnlineAccountTest4" classname="DemoBankingApp.OnlineAccountTests" time="0.2"/>
-  <testcase name="OnlineAccountTest5" classname="DemoBankingApp.OnlineAccountTests" time="0.2"/>
-  <testcase name="OnlineAccountTest6" classname="DemoBankingApp.OnlineAccountTests" time="0.204"/>
-  <testcase name="OnlineAccountTest7" classname="DemoBankingApp.OnlineAccountTests" time="0.204"/>
-  <testcase name="OnlineAccountTest8" classname="DemoBankingApp.OnlineAccountTests" time="0.2"/>
-  <testcase name="OnlineAccountTest9" classname="DemoBankingApp.OnlineAccountTests" time="0.204"/>
-  <testcase name="OnlineAccountTest10" classname="DemoBankingApp.OnlineAccountTests" time="0.204"/>
-  <testcase name="OnlineAccountTest11" classname="DemoBankingApp.OnlineAccountTests" time="0.204"/>
-  <testcase name="OnlineAccountTest12" classname="DemoBankingApp.OnlineAccountTests" time="0.2"/>
-  <testcase name="OnlineAccountTest13" classname="DemoBankingApp.OnlineAccountTests" time="0.2"/>
-  <testcase name="OnlineAccountTest14" classname="DemoBankingApp.OnlineAccountTests" time="0.2"/>
-  <testcase name="OnlineAccountTest15" classname="DemoBankingApp.OnlineAccountTests" time="0.204"/>
-  <testcase name="OnlineAccountTest16" classname="DemoBankingApp.OnlineAccountTests" time="0.204"/>
-  <testcase name="OnlineAccountTest17" classname="DemoBankingApp.OnlineAccountTests" time="0.2"/>
-  <testcase name="OnlineAccountTest18" classname="DemoBankingApp.OnlineAccountTests" time="0.204"/>
-  <testcase name="OnlineAccountTest19" classname="DemoBankingApp.OnlineAccountTests" time="0.2"/>
-  <testcase name="OnlineAccountTest20" classname="DemoBankingApp.OnlineAccountTests" time="0.2"/>
-  <testcase name="OnlineAccountTest21" classname="DemoBankingApp.OnlineAccountTests" time="0.204"/>
-  <testcase name="OnlineAccountTest22" classname="DemoBankingApp.OnlineAccountTests" time="0.2"/>
+  <testcase name="SavingsAccountTest1" classname="DemoBankingApp.SavingsAccountTests" time="0.72"/>
+  <testcase name="SavingsAccountTest2" classname="DemoBankingApp.SavingsAccountTests" time="0.753"/>
+  <testcase name="SavingsAccountTest3" classname="DemoBankingApp.SavingsAccountTests" time="0.752"/>
+  <testcase name="SavingsAccountTest4" classname="DemoBankingApp.SavingsAccountTests" time="0.752"/>
+  <testcase name="SavingsAccountTest5" classname="DemoBankingApp.SavingsAccountTests" time="0.752"/>
+  <testcase name="SavingsAccountTest6" classname="DemoBankingApp.SavingsAccountTests" time="0.752"/>
+  <testcase name="SavingsAccountTest7" classname="DemoBankingApp.SavingsAccountTests" time="0.752"/>
+  <testcase name="SavingsAccountTest8" classname="DemoBankingApp.SavingsAccountTests" time="0.752"/>
+  <testcase name="SavingsAccountTest9" classname="DemoBankingApp.SavingsAccountTests" time="0.752"/>
+  <testcase name="SavingsAccountAdditionalTest[1]" classname="DemoBankingApp.SavingsAccountTests" time="0.753"/>
+  <testcase name="SavingsAccountAdditionalTest[2]" classname="DemoBankingApp.SavingsAccountTests" time="0.752"/>
+  <testcase name="SavingsAccountAdditionalTest[3]" classname="DemoBankingApp.SavingsAccountTests" time="0.753"/>
+  <testcase name="SavingsAccountAdditionalTest[4]" classname="DemoBankingApp.SavingsAccountTests" time="0.752"/>
+  <testcase name="SavingsAccountAdditionalTest[5]" classname="DemoBankingApp.SavingsAccountTests" time="0.752"/>
+  <testcase name="SavingsAccountAdditionalTest[6]" classname="DemoBankingApp.SavingsAccountTests" time="0.752"/>
+  <testcase name="SavingsAccountAdditionalTest[7]" classname="DemoBankingApp.SavingsAccountTests" time="0.754"/>
+  <testcase name="SavingsAccountAdditionalTest[8]" classname="DemoBankingApp.SavingsAccountTests" time="0.753"/>
+  <testcase name="SavingsAccountAdditionalTest[9]" classname="DemoBankingApp.SavingsAccountTests" time="0.752"/>
+  <testcase name="SavingsAccountAdditionalTest[10]" classname="DemoBankingApp.SavingsAccountTests" time="0.752"/>
+  <testcase name="SavingsAccountAdditionalTest[11]" classname="DemoBankingApp.SavingsAccountTests" time="0.752"/>
+  <testcase name="SavingsAccountAdditionalTest[12]" classname="DemoBankingApp.SavingsAccountTests" time="0.753"/>
+  <testcase name="SavingsAccountAdditionalTest[13]" classname="DemoBankingApp.SavingsAccountTests" time="0.753"/>
+  <testcase name="SavingsAccountAdditionalTest[14]" classname="DemoBankingApp.SavingsAccountTests" time="0.752"/>
+  <testcase name="SavingsAccountAdditionalTest[15]" classname="DemoBankingApp.SavingsAccountTests" time="0.752"/>
+  <testcase name="SavingsAccountAdditionalTest[16]" classname="DemoBankingApp.SavingsAccountTests" time="0.752"/>
+  <testcase name="SavingsAccountAdditionalTest[17]" classname="DemoBankingApp.SavingsAccountTests" time="0.752"/>
+  <testcase name="SavingsAccountAdditionalTest[18]" classname="DemoBankingApp.SavingsAccountTests" time="0.752"/>
+  <testcase name="SavingsAccountAdditionalTest[19]" classname="DemoBankingApp.SavingsAccountTests" time="0.752"/>
+  <testcase name="SavingsAccountAdditionalTest[20]" classname="DemoBankingApp.SavingsAccountTests" time="0.752"/>
+  <testcase name="SavingsAccountAdditionalTest[21]" classname="DemoBankingApp.SavingsAccountTests" time="0.752"/>
+  <testcase name="SavingsAccountAdditionalTest[22]" classname="DemoBankingApp.SavingsAccountTests" time="0.752"/>
+  <testcase name="SavingsAccountAdditionalTest[23]" classname="DemoBankingApp.SavingsAccountTests" time="0.752"/>
+  <testcase name="SavingsAccountAdditionalTest[24]" classname="DemoBankingApp.SavingsAccountTests" time="0.752"/>
+  <testcase name="SavingsAccountAdditionalTest[25]" classname="DemoBankingApp.SavingsAccountTests" time="0.752"/>
+  <testcase name="SavingsAccountAdditionalTest[26]" classname="DemoBankingApp.SavingsAccountTests" time="0.752"/>
+  <testcase name="SavingsAccountAdditionalTest[27]" classname="DemoBankingApp.SavingsAccountTests" time="0.752"/>
+  <testcase name="SavingsAccountAdditionalTest[28]" classname="DemoBankingApp.SavingsAccountTests" time="0.752"/>
+  <testcase name="SavingsAccountAdditionalTest[29]" classname="DemoBankingApp.SavingsAccountTests" time="0.752"/>
+  <testcase name="SavingsAccountAdditionalTest[30]" classname="DemoBankingApp.SavingsAccountTests" time="0.753"/>
+  <testcase name="SavingsAccountAdditionalTest[31]" classname="DemoBankingApp.SavingsAccountTests" time="0.752"/>
+  <testcase name="SavingsAccountAdditionalTest[32]" classname="DemoBankingApp.SavingsAccountTests" time="0.753"/>
+  <testcase name="SavingsAccountAdditionalTest[33]" classname="DemoBankingApp.SavingsAccountTests" time="0.752"/>
+  <testcase name="SavingsAccountAdditionalTest[34]" classname="DemoBankingApp.SavingsAccountTests" time="0.752"/>
+  <testcase name="SavingsAccountAdditionalTest[35]" classname="DemoBankingApp.SavingsAccountTests" time="0.751"/>
+  <testcase name="SavingsAccountAdditionalTest[36]" classname="DemoBankingApp.SavingsAccountTests" time="0.752"/>
+  <testcase name="SavingsAccountAdditionalTest[37]" classname="DemoBankingApp.SavingsAccountTests" time="0.752"/>
+  <testcase name="SavingsAccountAdditionalTest[38]" classname="DemoBankingApp.SavingsAccountTests" time="0.752"/>
+  <testcase name="SavingsAccountTest10" classname="DemoBankingApp.SavingsAccountTests" time="0.753"/>
 </testsuite>

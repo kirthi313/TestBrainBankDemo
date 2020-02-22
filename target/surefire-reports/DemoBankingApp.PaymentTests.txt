@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
-Test set: DemoBankingApp.OnlineAccountTests
+Test set: DemoBankingApp.PaymentTests
 -------------------------------------------------------------------------------
-Tests run: 22, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 4.408 s - in DemoBankingApp.OnlineAccountTests
+Tests run: 33, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 39.608 s - in DemoBankingApp.PaymentTests

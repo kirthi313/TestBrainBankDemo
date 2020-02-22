@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="DemoBankingApp.OnlineAccountTests" time="4.408" tests="22" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="DemoBankingApp.TransfersTests" time="85.874" tests="78" errors="0" skipped="0" failures="0">
   <properties>
     <property name="sun.desktop" value="windows"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -60,26 +60,82 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="52.0"/>
   </properties>
-  <testcase name="OnlineAccountTest1" classname="DemoBankingApp.OnlineAccountTests" time="0.164"/>
-  <testcase name="OnlineAccountTest2" classname="DemoBankingApp.OnlineAccountTests" time="0.204"/>
-  <testcase name="OnlineAccountTest3" classname="DemoBankingApp.OnlineAccountTests" time="0.204"/>
-  <testcase name="OnlineAccountTest4" classname="DemoBankingApp.OnlineAccountTests" time="0.2"/>
-  <testcase name="OnlineAccountTest5" classname="DemoBankingApp.OnlineAccountTests" time="0.2"/>
-  <testcase name="OnlineAccountTest6" classname="DemoBankingApp.OnlineAccountTests" time="0.204"/>
-  <testcase name="OnlineAccountTest7" classname="DemoBankingApp.OnlineAccountTests" time="0.204"/>
-  <testcase name="OnlineAccountTest8" classname="DemoBankingApp.OnlineAccountTests" time="0.2"/>
-  <testcase name="OnlineAccountTest9" classname="DemoBankingApp.OnlineAccountTests" time="0.204"/>
-  <testcase name="OnlineAccountTest10" classname="DemoBankingApp.OnlineAccountTests" time="0.204"/>
-  <testcase name="OnlineAccountTest11" classname="DemoBankingApp.OnlineAccountTests" time="0.204"/>
-  <testcase name="OnlineAccountTest12" classname="DemoBankingApp.OnlineAccountTests" time="0.2"/>
-  <testcase name="OnlineAccountTest13" classname="DemoBankingApp.OnlineAccountTests" time="0.2"/>
-  <testcase name="OnlineAccountTest14" classname="DemoBankingApp.OnlineAccountTests" time="0.2"/>
-  <testcase name="OnlineAccountTest15" classname="DemoBankingApp.OnlineAccountTests" time="0.204"/>
-  <testcase name="OnlineAccountTest16" classname="DemoBankingApp.OnlineAccountTests" time="0.204"/>
-  <testcase name="OnlineAccountTest17" classname="DemoBankingApp.OnlineAccountTests" time="0.2"/>
-  <testcase name="OnlineAccountTest18" classname="DemoBankingApp.OnlineAccountTests" time="0.204"/>
-  <testcase name="OnlineAccountTest19" classname="DemoBankingApp.OnlineAccountTests" time="0.2"/>
-  <testcase name="OnlineAccountTest20" classname="DemoBankingApp.OnlineAccountTests" time="0.2"/>
-  <testcase name="OnlineAccountTest21" classname="DemoBankingApp.OnlineAccountTests" time="0.204"/>
-  <testcase name="OnlineAccountTest22" classname="DemoBankingApp.OnlineAccountTests" time="0.2"/>
+  <testcase name="TransfersTest10" classname="DemoBankingApp.TransfersTests" time="1.072"/>
+  <testcase name="TransfersTest1" classname="DemoBankingApp.TransfersTests" time="1.1"/>
+  <testcase name="TransfersTest2" classname="DemoBankingApp.TransfersTests" time="1.1"/>
+  <testcase name="TransfersTest3" classname="DemoBankingApp.TransfersTests" time="1.1"/>
+  <testcase name="TransfersTest4" classname="DemoBankingApp.TransfersTests" time="1.1"/>
+  <testcase name="TransfersTest5" classname="DemoBankingApp.TransfersTests" time="1.101"/>
+  <testcase name="TransfersTest6" classname="DemoBankingApp.TransfersTests" time="1.1"/>
+  <testcase name="TransfersTest7" classname="DemoBankingApp.TransfersTests" time="1.104"/>
+  <testcase name="TransfersTest8" classname="DemoBankingApp.TransfersTests" time="1.1"/>
+  <testcase name="TransfersTest9" classname="DemoBankingApp.TransfersTests" time="1.1"/>
+  <testcase name="TransfersAdditionalTest[1]" classname="DemoBankingApp.TransfersTests" time="1.1"/>
+  <testcase name="TransfersAdditionalTest[2]" classname="DemoBankingApp.TransfersTests" time="1.101"/>
+  <testcase name="TransfersAdditionalTest[3]" classname="DemoBankingApp.TransfersTests" time="1.1"/>
+  <testcase name="TransfersAdditionalTest[4]" classname="DemoBankingApp.TransfersTests" time="1.104"/>
+  <testcase name="TransfersAdditionalTest[5]" classname="DemoBankingApp.TransfersTests" time="1.101"/>
+  <testcase name="TransfersAdditionalTest[6]" classname="DemoBankingApp.TransfersTests" time="1.1"/>
+  <testcase name="TransfersAdditionalTest[7]" classname="DemoBankingApp.TransfersTests" time="1.104"/>
+  <testcase name="TransfersAdditionalTest[8]" classname="DemoBankingApp.TransfersTests" time="1.1"/>
+  <testcase name="TransfersAdditionalTest[9]" classname="DemoBankingApp.TransfersTests" time="1.1"/>
+  <testcase name="TransfersAdditionalTest[10]" classname="DemoBankingApp.TransfersTests" time="1.102"/>
+  <testcase name="TransfersAdditionalTest[11]" classname="DemoBankingApp.TransfersTests" time="1.1"/>
+  <testcase name="TransfersAdditionalTest[12]" classname="DemoBankingApp.TransfersTests" time="1.104"/>
+  <testcase name="TransfersAdditionalTest[13]" classname="DemoBankingApp.TransfersTests" time="1.102"/>
+  <testcase name="TransfersAdditionalTest[14]" classname="DemoBankingApp.TransfersTests" time="1.101"/>
+  <testcase name="TransfersAdditionalTest[15]" classname="DemoBankingApp.TransfersTests" time="1.1"/>
+  <testcase name="TransfersAdditionalTest[16]" classname="DemoBankingApp.TransfersTests" time="1.101"/>
+  <testcase name="TransfersAdditionalTest[17]" classname="DemoBankingApp.TransfersTests" time="1.1"/>
+  <testcase name="TransfersAdditionalTest[18]" classname="DemoBankingApp.TransfersTests" time="1.1"/>
+  <testcase name="TransfersAdditionalTest[19]" classname="DemoBankingApp.TransfersTests" time="1.101"/>
+  <testcase name="TransfersAdditionalTest[20]" classname="DemoBankingApp.TransfersTests" time="1.102"/>
+  <testcase name="TransfersAdditionalTest[21]" classname="DemoBankingApp.TransfersTests" time="1.101"/>
+  <testcase name="TransfersAdditionalTest[22]" classname="DemoBankingApp.TransfersTests" time="1.1"/>
+  <testcase name="TransfersAdditionalTest[23]" classname="DemoBankingApp.TransfersTests" time="1.1"/>
+  <testcase name="TransfersAdditionalTest[24]" classname="DemoBankingApp.TransfersTests" time="1.1"/>
+  <testcase name="TransfersAdditionalTest[25]" classname="DemoBankingApp.TransfersTests" time="1.1"/>
+  <testcase name="TransfersAdditionalTest[26]" classname="DemoBankingApp.TransfersTests" time="1.102"/>
+  <testcase name="TransfersAdditionalTest[27]" classname="DemoBankingApp.TransfersTests" time="1.1"/>
+  <testcase name="TransfersAdditionalTest[28]" classname="DemoBankingApp.TransfersTests" time="1.104"/>
+  <testcase name="TransfersAdditionalTest[29]" classname="DemoBankingApp.TransfersTests" time="1.1"/>
+  <testcase name="TransfersAdditionalTest[30]" classname="DemoBankingApp.TransfersTests" time="1.103"/>
+  <testcase name="TransfersAdditionalTest[31]" classname="DemoBankingApp.TransfersTests" time="1.1"/>
+  <testcase name="TransfersAdditionalTest[32]" classname="DemoBankingApp.TransfersTests" time="1.104"/>
+  <testcase name="TransfersAdditionalTest[33]" classname="DemoBankingApp.TransfersTests" time="1.104"/>
+  <testcase name="TransfersAdditionalTest[34]" classname="DemoBankingApp.TransfersTests" time="1.101"/>
+  <testcase name="TransfersAdditionalTest[35]" classname="DemoBankingApp.TransfersTests" time="1.104"/>
+  <testcase name="TransfersAdditionalTest[36]" classname="DemoBankingApp.TransfersTests" time="1.104"/>
+  <testcase name="TransfersAdditionalTest[37]" classname="DemoBankingApp.TransfersTests" time="1.1"/>
+  <testcase name="TransfersAdditionalTest[38]" classname="DemoBankingApp.TransfersTests" time="1.104"/>
+  <testcase name="TransfersAdditionalTest[39]" classname="DemoBankingApp.TransfersTests" time="1.1"/>
+  <testcase name="TransfersAdditionalTest[40]" classname="DemoBankingApp.TransfersTests" time="1.101"/>
+  <testcase name="TransfersAdditionalTest[41]" classname="DemoBankingApp.TransfersTests" time="1.1"/>
+  <testcase name="TransfersAdditionalTest[42]" classname="DemoBankingApp.TransfersTests" time="1.1"/>
+  <testcase name="TransfersAdditionalTest[43]" classname="DemoBankingApp.TransfersTests" time="1.102"/>
+  <testcase name="TransfersAdditionalTest[44]" classname="DemoBankingApp.TransfersTests" time="1.101"/>
+  <testcase name="TransfersAdditionalTest[45]" classname="DemoBankingApp.TransfersTests" time="1.102"/>
+  <testcase name="TransfersAdditionalTest[46]" classname="DemoBankingApp.TransfersTests" time="1.103"/>
+  <testcase name="TransfersAdditionalTest[47]" classname="DemoBankingApp.TransfersTests" time="1.101"/>
+  <testcase name="TransfersAdditionalTest[48]" classname="DemoBankingApp.TransfersTests" time="1.104"/>
+  <testcase name="TransfersAdditionalTest[49]" classname="DemoBankingApp.TransfersTests" time="1.1"/>
+  <testcase name="TransfersAdditionalTest[50]" classname="DemoBankingApp.TransfersTests" time="1.104"/>
+  <testcase name="TransfersAdditionalTest[51]" classname="DemoBankingApp.TransfersTests" time="1.1"/>
+  <testcase name="TransfersAdditionalTest[52]" classname="DemoBankingApp.TransfersTests" time="1.101"/>
+  <testcase name="TransfersAdditionalTest[53]" classname="DemoBankingApp.TransfersTests" time="1.1"/>
+  <testcase name="TransfersAdditionalTest[54]" classname="DemoBankingApp.TransfersTests" time="1.1"/>
+  <testcase name="TransfersAdditionalTest[55]" classname="DemoBankingApp.TransfersTests" time="1.104"/>
+  <testcase name="TransfersAdditionalTest[56]" classname="DemoBankingApp.TransfersTests" time="1.1"/>
+  <testcase name="TransfersAdditionalTest[57]" classname="DemoBankingApp.TransfersTests" time="1.104"/>
+  <testcase name="TransfersAdditionalTest[58]" classname="DemoBankingApp.TransfersTests" time="1.104"/>
+  <testcase name="TransfersAdditionalTest[59]" classname="DemoBankingApp.TransfersTests" time="1.102"/>
+  <testcase name="TransfersAdditionalTest[60]" classname="DemoBankingApp.TransfersTests" time="1.104"/>
+  <testcase name="TransfersAdditionalTest[61]" classname="DemoBankingApp.TransfersTests" time="1.1"/>
+  <testcase name="TransfersAdditionalTest[62]" classname="DemoBankingApp.TransfersTests" time="1.101"/>
+  <testcase name="TransfersAdditionalTest[63]" classname="DemoBankingApp.TransfersTests" time="1.1"/>
+  <testcase name="TransfersAdditionalTest[64]" classname="DemoBankingApp.TransfersTests" time="1.1"/>
+  <testcase name="TransfersAdditionalTest[65]" classname="DemoBankingApp.TransfersTests" time="1.1"/>
+  <testcase name="TransfersAdditionalTest[66]" classname="DemoBankingApp.TransfersTests" time="1.104"/>
+  <testcase name="TransfersAdditionalTest[67]" classname="DemoBankingApp.TransfersTests" time="1.101"/>
+  <testcase name="TransfersAdditionalTest[68]" classname="DemoBankingApp.TransfersTests" time="1.1"/>
 </testsuite>

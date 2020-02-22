@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="DemoBankingApp.OnlineAccountTests" time="4.408" tests="22" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="DemoBankingApp.PaymentTests" time="39.608" tests="33" errors="0" skipped="0" failures="0">
   <properties>
     <property name="sun.desktop" value="windows"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -60,26 +60,37 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="52.0"/>
   </properties>
-  <testcase name="OnlineAccountTest1" classname="DemoBankingApp.OnlineAccountTests" time="0.164"/>
-  <testcase name="OnlineAccountTest2" classname="DemoBankingApp.OnlineAccountTests" time="0.204"/>
-  <testcase name="OnlineAccountTest3" classname="DemoBankingApp.OnlineAccountTests" time="0.204"/>
-  <testcase name="OnlineAccountTest4" classname="DemoBankingApp.OnlineAccountTests" time="0.2"/>
-  <testcase name="OnlineAccountTest5" classname="DemoBankingApp.OnlineAccountTests" time="0.2"/>
-  <testcase name="OnlineAccountTest6" classname="DemoBankingApp.OnlineAccountTests" time="0.204"/>
-  <testcase name="OnlineAccountTest7" classname="DemoBankingApp.OnlineAccountTests" time="0.204"/>
-  <testcase name="OnlineAccountTest8" classname="DemoBankingApp.OnlineAccountTests" time="0.2"/>
-  <testcase name="OnlineAccountTest9" classname="DemoBankingApp.OnlineAccountTests" time="0.204"/>
-  <testcase name="OnlineAccountTest10" classname="DemoBankingApp.OnlineAccountTests" time="0.204"/>
-  <testcase name="OnlineAccountTest11" classname="DemoBankingApp.OnlineAccountTests" time="0.204"/>
-  <testcase name="OnlineAccountTest12" classname="DemoBankingApp.OnlineAccountTests" time="0.2"/>
-  <testcase name="OnlineAccountTest13" classname="DemoBankingApp.OnlineAccountTests" time="0.2"/>
-  <testcase name="OnlineAccountTest14" classname="DemoBankingApp.OnlineAccountTests" time="0.2"/>
-  <testcase name="OnlineAccountTest15" classname="DemoBankingApp.OnlineAccountTests" time="0.204"/>
-  <testcase name="OnlineAccountTest16" classname="DemoBankingApp.OnlineAccountTests" time="0.204"/>
-  <testcase name="OnlineAccountTest17" classname="DemoBankingApp.OnlineAccountTests" time="0.2"/>
-  <testcase name="OnlineAccountTest18" classname="DemoBankingApp.OnlineAccountTests" time="0.204"/>
-  <testcase name="OnlineAccountTest19" classname="DemoBankingApp.OnlineAccountTests" time="0.2"/>
-  <testcase name="OnlineAccountTest20" classname="DemoBankingApp.OnlineAccountTests" time="0.2"/>
-  <testcase name="OnlineAccountTest21" classname="DemoBankingApp.OnlineAccountTests" time="0.204"/>
-  <testcase name="OnlineAccountTest22" classname="DemoBankingApp.OnlineAccountTests" time="0.2"/>
+  <testcase name="PaymentsTest1" classname="DemoBankingApp.PaymentTests" time="1.156"/>
+  <testcase name="PaymentsTest2" classname="DemoBankingApp.PaymentTests" time="1.2"/>
+  <testcase name="PaymentsTest3" classname="DemoBankingApp.PaymentTests" time="1.202"/>
+  <testcase name="PaymentsTest4" classname="DemoBankingApp.PaymentTests" time="1.202"/>
+  <testcase name="PaymentsTest5" classname="DemoBankingApp.PaymentTests" time="1.2"/>
+  <testcase name="PaymentsTest6" classname="DemoBankingApp.PaymentTests" time="1.202"/>
+  <testcase name="PaymentsTest7" classname="DemoBankingApp.PaymentTests" time="1.204"/>
+  <testcase name="PaymentsTest8" classname="DemoBankingApp.PaymentTests" time="1.2"/>
+  <testcase name="PaymentsTest9" classname="DemoBankingApp.PaymentTests" time="1.204"/>
+  <testcase name="PaymentsAdditionalTest[1]" classname="DemoBankingApp.PaymentTests" time="1.201"/>
+  <testcase name="PaymentsAdditionalTest[2]" classname="DemoBankingApp.PaymentTests" time="1.2"/>
+  <testcase name="PaymentsAdditionalTest[3]" classname="DemoBankingApp.PaymentTests" time="1.204"/>
+  <testcase name="PaymentsAdditionalTest[4]" classname="DemoBankingApp.PaymentTests" time="1.204"/>
+  <testcase name="PaymentsAdditionalTest[5]" classname="DemoBankingApp.PaymentTests" time="1.2"/>
+  <testcase name="PaymentsAdditionalTest[6]" classname="DemoBankingApp.PaymentTests" time="1.204"/>
+  <testcase name="PaymentsAdditionalTest[7]" classname="DemoBankingApp.PaymentTests" time="1.201"/>
+  <testcase name="PaymentsAdditionalTest[8]" classname="DemoBankingApp.PaymentTests" time="1.201"/>
+  <testcase name="PaymentsAdditionalTest[9]" classname="DemoBankingApp.PaymentTests" time="1.2"/>
+  <testcase name="PaymentsAdditionalTest[10]" classname="DemoBankingApp.PaymentTests" time="1.2"/>
+  <testcase name="PaymentsAdditionalTest[11]" classname="DemoBankingApp.PaymentTests" time="1.204"/>
+  <testcase name="PaymentsAdditionalTest[12]" classname="DemoBankingApp.PaymentTests" time="1.2"/>
+  <testcase name="PaymentsAdditionalTest[13]" classname="DemoBankingApp.PaymentTests" time="1.204"/>
+  <testcase name="PaymentsAdditionalTest[14]" classname="DemoBankingApp.PaymentTests" time="1.202"/>
+  <testcase name="PaymentsAdditionalTest[15]" classname="DemoBankingApp.PaymentTests" time="1.2"/>
+  <testcase name="PaymentsAdditionalTest[16]" classname="DemoBankingApp.PaymentTests" time="1.204"/>
+  <testcase name="PaymentsAdditionalTest[17]" classname="DemoBankingApp.PaymentTests" time="1.2"/>
+  <testcase name="PaymentsAdditionalTest[18]" classname="DemoBankingApp.PaymentTests" time="1.2"/>
+  <testcase name="PaymentsAdditionalTest[19]" classname="DemoBankingApp.PaymentTests" time="1.2"/>
+  <testcase name="PaymentsAdditionalTest[20]" classname="DemoBankingApp.PaymentTests" time="1.203"/>
+  <testcase name="PaymentsAdditionalTest[21]" classname="DemoBankingApp.PaymentTests" time="1.204"/>
+  <testcase name="PaymentsAdditionalTest[22]" classname="DemoBankingApp.PaymentTests" time="1.201"/>
+  <testcase name="PaymentsAdditionalTest[23]" classname="DemoBankingApp.PaymentTests" time="1.201"/>
+  <testcase name="PaymentsTest10" classname="DemoBankingApp.PaymentTests" time="1.2"/>
 </testsuite>
